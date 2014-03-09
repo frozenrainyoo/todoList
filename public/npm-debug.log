@@ -1,0 +1,62 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', 'angular-route' ]
+2 info using npm@1.4.3
+3 info using node@v0.10.26
+4 verbose cache add [ 'angular-route', null ]
+5 verbose cache add name=undefined spec="angular-route" args=["angular-route",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'angular-route',
+6 verbose parsed url   path: 'angular-route',
+6 verbose parsed url   href: 'angular-route' }
+7 silly lockFile 54a09c02-angular-route angular-route
+8 verbose lock angular-route /Users/frozenrain/.npm/54a09c02-angular-route.lock
+9 silly lockFile 54a09c02-angular-route angular-route
+10 silly lockFile 54a09c02-angular-route angular-route
+11 verbose addNamed [ 'angular-route', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile 44e54571-angular-route angular-route@
+14 verbose lock angular-route@ /Users/frozenrain/.npm/44e54571-angular-route.lock
+15 silly addNameRange { name: 'angular-route', range: '*', hasData: false }
+16 verbose url raw angular-route
+17 verbose url resolving [ 'https://registry.npmjs.org/', './angular-route' ]
+18 verbose url resolved https://registry.npmjs.org/angular-route
+19 info trying registry request attempt 1 at 22:28:01
+20 http GET https://registry.npmjs.org/angular-route
+21 http 404 https://registry.npmjs.org/angular-route
+22 silly registry.get cb [ 404,
+22 silly registry.get   { date: 'Sun, 09 Mar 2014 13:28:02 GMT',
+22 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B)',
+22 silly registry.get     'content-type': 'application/json',
+22 silly registry.get     via: '1.1 varnish',
+22 silly registry.get     'cache-control': 'max-age=0',
+22 silly registry.get     'content-length': '52',
+22 silly registry.get     'accept-ranges': 'bytes',
+22 silly registry.get     age: '0',
+22 silly registry.get     'x-served-by': 'cache-v43-ASH, cache-ty67-TYO',
+22 silly registry.get     'x-cache': 'MISS, MISS',
+22 silly registry.get     'x-cache-hits': '0, 0',
+22 silly registry.get     'x-timer': 'S1394371681.812353849,VS0,VS77,VE97,VE204',
+22 silly registry.get     'keep-alive': 'timeout=10, max=50',
+22 silly registry.get     connection: 'Keep-Alive' } ]
+23 silly lockFile 44e54571-angular-route angular-route@
+24 silly lockFile 44e54571-angular-route angular-route@
+25 error 404 'angular-route' is not in the npm registry.
+25 error 404 You should bug the author to publish it
+25 error 404
+25 error 404 Note that you can also install from a
+25 error 404 tarball, folder, or http url, or git url.
+26 error System Darwin 13.0.0
+27 error command "node" "/usr/local/bin/npm" "install" "angular-route"
+28 error cwd /Users/frozenrain/works/web/public
+29 error node -v v0.10.26
+30 error npm -v 1.4.3
+31 error code E404
+32 verbose exit [ 1, true ]
